@@ -1,5 +1,11 @@
 {
   "version": 2,
   "type": "static",
-  "alias": ["now-github-starter"]
+  "alias": ["now-github-starter"],
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@now/static"
+    }
+  ]
 }
